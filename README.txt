@@ -1,0 +1,7 @@
+Hi, 
+Thanks for downloading my script.
+This script will get all the images that is used by Windows as Lock Screen Wallapers using Windows Spotlight.
+Those images are high quality images downloaded automatically by Windows for Lock Screen Wallpapers.
+All those images which are having the resolution 1920x1080 will be copied and stored in the Pictures folder of your profile.
+Make sure to change the directory at the lines 12, 13 and 19 (change the username of yours)
+You can access those images and have fun :)
