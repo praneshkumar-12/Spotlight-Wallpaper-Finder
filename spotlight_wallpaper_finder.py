@@ -1,22 +1,22 @@
-import PIL
-from PIL import Image
-
 import shutil
 import os
 from pathlib import Path
 from time import sleep
 
+os.system('pip install pillow')
+
+import PIL
+from PIL import Image
 
 sleep(3)
-os.system('pip install pillow')
-src = 'C:/Users/Admin/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'
-des = 'C:/Users/Admin/Pictures'
+src = 'C:/Users/Pranesh/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'
+des = 'C:/Users/Pranesh/Pictures'
 
 try:
     test = os.listdir(des)
     del test
 except FileNotFoundError:
-    des = 'C:/Users/Admin/OneDrive/Pictures'
+    des = 'C:/Users/Pranesh/OneDrive/Pictures'
 
 new_folder_path = des + '/temp/'
 files = os.listdir(src)
